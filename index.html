@@ -8,12 +8,8 @@
 <p><strong>Свеча после (50 fps )</strong></p>
 <p><strong><img src="https://anton890000.github.io/1/0_124c8b_410caf17_orig-16x-RIFE-RIFE3.1-50fps.gif" alt="" /></strong></p>
 <p><strong>Заставка НТВ ПЛЮС Спорт "Большой ринг" (50 fps )</strong></p>
- <object width="470" height="353">
-    <param name="movie" value="https://anton890000.github.io/CDN/1.mov">
-    <param name="wmode" value="window">
-    <param name="allowFullScreen" value="true">
-    <embed src="https://anton890000.github.io/CDN/1.mov" type="application/x-shockwave-flash" wmode="window" allowfullscreen="true" width="470" height="353">
-  </object>
-<video id="MediaPlayer1" controls>
-<source src="https://anton890000.github.io/CDN/1.mov">
-</video>
+<div id="player"></div>
+
+<script>
+   var player = new Playerjs({id:"player", src:"anton890000.github.io/CDN/1.mov"});
+</script>
